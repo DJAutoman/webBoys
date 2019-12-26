@@ -1,0 +1,27 @@
+.container-box{
+    max-width: 1000px;
+    padding-top: 50px;
+    display: block;
+}
+.trans{
+   width: 400px;
+   height: 200px;
+   margin: 10px 0px;
+}
+.trans .flash {
+    max-width: 300px;
+    overflow: hidden;
+}
+.trans .wrapper {
+    font-size: 0;
+    width: calc(8 * 100%); 
+    transition: all .25s linear;
+}
+
+.trans .wrapper img {
+    width: calc(100% / 8);
+}
+
+
+
+

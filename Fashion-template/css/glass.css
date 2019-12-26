@@ -1,0 +1,47 @@
+img {
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+    border: 1px solid #eeeeee;
+}
+
+.container {
+    position: relative;
+}
+
+.small-box {
+    width: 280px;  
+    height: 280px;
+    position: relative;
+    margin-right: 120px;
+}
+
+.mirror {
+    width: 130px;
+    height: 130px;
+    background: #ffffcc;
+    border: 1px solid #cccccc;
+    cursor: move;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.big-box {
+    display: none;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.big-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

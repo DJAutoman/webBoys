@@ -1,0 +1,61 @@
+#jacket-content{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 45px ;
+}
+.container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background-color:#E7E7E7 ;
+}
+.individual{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.figure{
+    width: 30%;
+    padding: 0 20px;
+    
+}
+.portrait{
+    width: 100%;
+    text-align: center;
+}
+.portrait-position{
+    padding: 18px 0 1px;
+    color: #a9a9a9;
+    font-size: 18px;
+    font-family: "times new roman";
+    text-align: center;
+}
+.portrait-name {
+    padding: 11px 0 6px;
+    font-family: "幼圆";
+    text-align: center;
+}
+.portrait-name h1{
+    font-size: 18px;
+    color:#666666;
+    line-height: 30px;
+    text-align: center;
+}
+.portrait-name h2{
+    font-size: 15px;
+    color: black;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity: .7;
+}
+.portrait-content{
+    padding: 11px 0 0 1px;
+    font-size: 13px;
+    color: #a9a9a9;
+    line-height: 25px;
+}

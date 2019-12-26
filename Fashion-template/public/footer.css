@@ -1,0 +1,142 @@
+#footer{
+    width: 100%;
+    height: 804px;
+    background-color: #25211E;
+}
+.footer-warp{
+    max-width: 1024px;
+    height: 804px;
+    padding: 0 40px;
+    margin: 0 auto;
+    /* background-color: darkcyan; */
+}
+.foot-container{
+    width: 100%;
+    height: 784px;
+    /* background-color: darkgrey; */
+}
+.foot-top{
+    width: 100%;
+    height: 416px;
+    padding: 90px 0 60px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.column-container{
+    width: 245px;
+    height: 100%;
+    /* background-color: darkmagenta; */
+}
+.text_column{
+    width: 100%;
+    height: 26px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: white;
+    margin-bottom: 20px;
+}
+.explain_column{
+    width: 190px;
+    height: 78px;
+    padding: 7px 0px;
+}
+.explain_column_text{
+    width: 180px;
+    line-height: 2em;
+    color: #bbbbbb;
+    font-size: 12px;
+    font-family: "黑体";
+}
+.line_hight{
+    width: 180px;
+    height: 21.3px;
+    line-height: 2em;
+    color: #bbbbbb;
+    font-size: 12px;
+    font-family: "黑体";
+}
+.color_column img{
+    width: 187px;
+    height: 31px;
+}
+.online{
+    width: 100%;
+    height: 66px;
+    margin-top: 24px;
+    padding: 20px 0;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+}
+.online_last{
+    width: 100%;
+    height: 26px;
+    margin: 149px 0 20px 0;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+}
+.foot_contact{
+    width: 100%;   
+}
+.foot-img{
+    width: 49px;
+    height: 32px;
+}
+.foot-image{
+    width: 34px;
+    height: 34px;
+    margin-left: 4px;
+}
+.font-awsome span{
+    color: white;
+    margin-right: 10px;
+}
+.foot-bottom{
+    width: 100%;
+    height: 298px;
+    /* background-color: hotpink; */
+    border-bottom: 1px solid gray;
+    padding: 60px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-bottom-contant{
+    width: 246px;
+    height: 128px;
+    /* background-color: khaki; */
+}
+.text_column_mar{
+    margin-bottom: 0px;
+}
+.tile{
+    width: 100%;
+    height: 68px;
+}
+.tile>.explain_column_text{
+    font-family: "微软雅黑";
+    margin:20px  auto;
+    font-size: 12px;
+    text-align: center;
+}
+.explain_column_text-bottom{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    text-align: center;
+    color: #bbbbbb;
+    margin-top: -13px;
+}
+
+#hand-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #E7E7E7;
+    font-size: 25px;
+}
+#hand-top:hover{
+    color: coral;
+}

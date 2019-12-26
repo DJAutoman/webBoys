@@ -1,0 +1,116 @@
+.wf-table{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+#branding{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+#branding a{
+    width: 187px;
+    max-height: 31px;
+    cursor: pointer;
+}
+#branding a img{
+    width: 187px;
+    height: 31px;
+    transform: translateY(56px);
+}
+#navigation{
+    width: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+#navigation>li{
+    float: left;
+}
+#navigation>li a{
+    width: 58px;
+    height: 47.6px;
+    padding: 12px 30px;
+    line-height: 124.8px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+    box-sizing: border-box;
+}
+.deep-color{
+    opacity: 1 !important;
+}
+#navigation>li>a:hover{
+    opacity: 1;
+}
+#submenu>li a{
+    line-height: 30px;
+    opacity: 0.4;
+    padding: 6px 10px 7px 10px;
+}
+#submenu>li a:hover{
+    opacity: .6;
+}
+#submenu{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(212, 212, 212);
+    position: absolute;
+    top: 90px;
+    margin: 0 33px 0;
+    opacity: 0;
+    transition: all .7S;
+}
+#navigation>li:hover #submenu{
+    opacity: 1;
+}
+.wf-td{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    }
+.loginandregister{
+    height: 40px;
+    margin:44px auto;
+    float: right;
+}
+.loginandregister i{
+    margin: 0 0 0 30px;
+    opacity: 1;
+    line-height: 44px;
+    cursor: pointer;
+}
+.loginandregister .shopping-cart .cart-list{
+    width: 300px;
+    /* height: 70px; */
+    position: absolute;
+    right: 40px;
+    padding: 10px 20px;
+    line-height: 70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 0 8px rgb(212, 212, 212);
+    opacity: 0;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.loginandregister #shopping-right:hover .cart-list{
+        opacity: 1;
+}
+.cart-list img.carjacket {
+ width: 100px;   
+}
+.cart-list .carjackettt{
+    display: inline-block;
+}
+.cart-list h3,h5{
+    display: inline;
+}
