@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    header{
+        height: 100px;
+        background-color: #aaa;
+    }
+    footer{
+        height: 100px;
+        background-color: #dcd
+    }
+    main{
+        width: 1000px;
+        border: pink 1px solid;
+        background-color: rgb(22, 65, 184);
+        margin: 0 auto;
+        /* padding: 20px; */
+    }
+    .left{
+        width: 300px;
+        height: 200px;
+        background-color: powderblue;
+        float: left;
+        
+    }
+    .right{
+        width: 300px;
+        height: 200px;
+        background-color: sandybrown;
+        float: left;
+   
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .lc1{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(119, 29, 119);
+        float: left;
+margin-right: 20px;
+    }
+    .lc2{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(119, 0, 0);
+        float: left;
+    }
+    .lc{
+        width: 300px;
+        background-color: #fff;
+        border: rgb(255, 2, 2) 2px solid;
+        
+    }
+    .lc3:after{
+        content: "";
+        display: block;
+       clear: both;
+    }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main class="clearfix">
+        <div class="left">
+                     <div class="lc">
+            <div class="lc1"></div>
+            <div class="lc2"></div>
+            <div class="lc3"></div>
+                    </div>
+        </div>
+        <div class="right"></div>
+    </main>
+    <footer></footer>
+</body>
+</html>

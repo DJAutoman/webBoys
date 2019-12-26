@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .flex{
+        width: 600px;
+        height: 400px;
+        display: flex;
+        background-color: rgb(212, 212, 212);
+        /* flex-direction: row-reverse; */
+        /* flex-wrap:wrap-reverse; */
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        /* align-items: baseline; */
+        /* align-items: center; */
+        /* align-content: center; */
+        /* align-items: stretch; */
+        /* align-content: space-around; */
+    }
+    .yuansu{
+        /* width: 100px; */
+        width: 150px;
+        height: 100px;
+        background-color: rgb(39, 177, 62);
+        text-align: center;
+    }
+    .yuansu:nth-child(2){
+        width: 100px;
+        /* width: 150px; */
+        height: 150px;
+        font-size: 30px;
+        /* margin-top:20px ; */
+    }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="yuansu">1</div>
+        <div class="yuansu">2</div>
+        <div class="yuansu">3</div>
+        <div class="yuansu">4</div>
+        <div class="yuansu">5</div>
+        <div class="yuansu">6</div>
+    </div>
+</body>
+</html>

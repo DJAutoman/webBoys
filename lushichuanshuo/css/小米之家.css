@@ -1,0 +1,185 @@
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+a{
+    text-decoration:none;
+
+}
+header{
+    height: 40px;
+    background-color:rgb(51, 51, 51);
+}
+nav{
+    width: 1226px;
+    height: 40px;
+    /* background-color: rgb(248, 196, 196); */
+    margin: 0 auto;
+}
+nav ul,li{
+    float: left;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #b0b0b0;
+    box-sizing: border-box;
+    padding: 12px 22px 12px 0;
+    font: 12px/40px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+li a:hover{
+    color: rgb(235, 235, 235);
+}
+.navrightchild1{
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    float: right;
+    padding: 0 0 0 12px;
+    text-align: center;
+    color: #b0b0b0;
+}
+.navrightchild1:hover{
+    color: rgb(235, 235, 235);
+}
+.navrightchild2{
+    line-height: 40px;
+    float: right;
+    padding: 0 11px;
+    color: #b0b0b0;
+    font-size: 12px;
+    
+}
+.navrightchild2:hover{
+    color: rgb(235, 235, 235);
+}
+.navright,.navrightchild{
+    float: right;
+    line-height: 40px;
+    padding: 0 8.6px;
+    color: #b0b0b0;
+    font-size: 12px;
+
+}
+.navrightchild:hover{
+    color: rgb(235, 235, 235);
+}
+
+.container{
+    width: 1226px;
+    height: 100px;
+    /* background-color: rgb(248, 234, 234); */
+    margin: 0 auto;
+    position: relative;
+}
+.picture{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background-color: rgb(255, 103, 0);
+    transform: translateY(40%);
+    text-align: center;
+}
+.containerlist{
+    width: 1130px;
+    height: 100px;
+    position: absolute;
+    left: 62px;
+    top: 0;
+    padding: 12px 0 0 30px;
+    /* background-color: rgb(197, 241, 203); */
+    box-sizing: border-box;
+}
+.containerlist ul{
+    margin-left: 142px;
+}
+.containerlist ul li a{
+    text-decoration: none;
+    color: #333333;
+    line-height: 88px;
+    padding: 26px 10px 38px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.search{
+    width: 300px;
+    height: 50px;
+    /* background-color: rgb(187, 106, 106); */
+    position: relative;
+    right: -926px;
+    top: 25px;
+}
+.container .search i{
+    display: block;
+    width: 38px;
+    height: 46px;
+    border: #e2e2e2 1px solid;
+    padding: 1px 6px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    color: #616161;
+}
+.container .search input{
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e2e2e2;
+    border-right: transparent;
+    padding: 0px 10px;
+    float: right;
+}
+.swiper{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./yuaner.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.swiperleft{
+    width: 234px;
+    height: 460px;
+    background-color: rgb(149, 161, 163);
+}
+.swiperleft ul{
+    width: 234px;
+    height: 420px;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.swiperleft ul li{
+    width: 204px;
+    height: 42px;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 42px;
+    color: white;
+}
+.swiperright{
+    width: 992px;
+    height: 460px;
+}
+
+.homesubrow{
+    width: 1226px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background-color: rgb(243, 188, 188);
+    display: flex;
+    justify-content: space-between;
+}
+.homesubrow .channel{
+    width: 228px;
+    height: 164px;
+    padding: 3px;
+    background-color:thistle;
+}
+.homesubrow img{
+    width: 316px;
+    height: 170px;
+}

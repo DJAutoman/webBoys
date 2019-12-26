@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* position: absolute; */
+            left: 200px;
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            /* position: relative; */
+            top: 50px;
+            z-index:1 ;
+        }
+        .div3{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            /* position: relative;
+            left: 50px;
+            bottom: -50px; */
+        }
+        .div4{
+            width: 800px;
+            height: 800px;
+            background-color: violet;
+            position: absolute;
+        }
+        .div5{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(17, 103, 153);
+            position:relative
+        }
+        .div6{
+            width: 100px;
+           height: 100px;
+            background-color: sandybrown;
+            position: absolute;
+            top: 0;
+            left: 300px;
+        }
+        .div7{
+            width: 100px;
+           height: 100px;
+            background-color: rgb(8, 117, 99);
+            position: absolute;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+
+    <div class="div4">4
+        <div class="div5">5
+            <div class="div6">6</div>
+            <div class="div7">7</div>
+
+        </div>
+
+    </div>
+</body>
+</html>

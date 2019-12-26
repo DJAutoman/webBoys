@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    label{
+        display: block;
+    }
+
+    .borleft{
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+    }
+    textarea{
+        width: 160px;
+       
+       
+    }
+    .bor1{
+border: lightpink 1px dashed;
+margin: 10px;
+width: 400px;
+background: salmon;
+    }
+#btn{
+    width: 400px;
+    text-align: right;
+    
+}
+button{
+ 
+    color: thistle;
+    background:saddlebrown
+}
+    </style>
+</head>
+<body>
+    <form>
+      <div class="bor1">
+           <div class="borleft">
+                  <label>Name</label><input/>
+                  <label>Email</label><input type="email"/>
+                  <label>Website</label><input type="url"/>
+           </div>  
+           
+           
+           <div class="borleft">
+           <label>Message</label>
+           <textarea rows="5"></textarea>
+           </div>     
+      </div>
+
+
+      <div id="btn"><button>Send</button></div>
+    </form>
+
+</body>
+</html>

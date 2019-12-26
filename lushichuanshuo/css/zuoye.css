@@ -1,0 +1,39 @@
+header{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(238, 161, 161);
+    margin: 0 auto;
+}
+nav{
+    width: 1000px;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 0 auto;
+}
+.nav1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(204, 194, 194);
+    float: left;
+}
+.nav2{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(124, 113, 131);
+    float: left;
+}
+.nav3{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(52, 81, 88);
+    float: left;
+}
+main{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(41, 54, 168);
+    margin: 10px auto;
+}
+.img{
+
+}

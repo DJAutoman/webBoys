@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .b1 {
+            width: 100px;
+            height: 100px;
+            border: rgb(255, 3, 3) 1px solid;
+            transition: all 0.5S;
+        }
+
+        .b0:hover .b1{
+            transform: translate(100px, 100px) rotateX(270deg);
+        }
+
+        .b2 {
+            width: 100px;
+            height: 100px;
+            border: springgreen 1px solid;
+            transition: all 0.5S;
+            /* position: absolute;
+            left: 50%;
+            transform: translateX(-50%); */
+        }
+        .b0:hover .b2{
+            transform: translateX(100px) rotate(180deg);
+        }
+        .b3{
+            width: 100px;
+            height: 100px;
+            border: tomato 1px solid;
+            transition: all .5S;
+        }
+        .b3:hover{
+            transform: scale(.5);
+        }
+        .b4{
+            width: 100px;
+            height: 100px;
+            border: rgb(243, 8, 98) 1px solid;
+            transition: all .5S;
+        }
+        .b4:hover{
+            transform: skew(45deg,45deg);
+        }
+        .b5{
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            border: 1px solid yellow;
+            background-color: rgb(47, 201, 180);
+            transition: all 3S;
+            transform-origin: top right;
+        }
+        .b5:hover{
+            transform: rotate(720deg);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box b0">
+        <div class="box b1">1</div>
+        <div class="box b2">2</div>
+    </div>
+    <div class="box b3">3</div>
+    
+    <div class="box b4">4</div>
+    <div class="box b5">5</div>
+</body>
+
+</html>

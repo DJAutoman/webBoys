@@ -1,0 +1,143 @@
+body{
+    background-color: #DDDDDD;
+}
+header{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #343434;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+}
+.left{
+    width: 200px;
+    height: 90px;
+    /* background-color: rgb(149, 172, 68); */
+    float: left;
+}
+.center{
+    width: 500px;
+    height: 90px;
+    /* background-color: rgb(28, 81, 105); */
+    float: left;
+}
+.muea li{
+    float: left;
+    height: 90px;
+    line-height: 70px;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-family: "幼圆";
+}
+li{
+    list-style: none;
+}
+#i0{
+    height: 90px;
+    line-height: 90px;
+    color: blue;
+}
+span{
+    height: 90px;
+    line-height: 90px;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+    color: beige;
+}
+#i1{
+    margin-left:4px ;
+}
+.right{
+    width: 300px;
+    height: 90px;
+    /* background-color: rgb(74, 28, 105); */
+    float: left;
+}
+#i2{
+    float: right;
+    background-color: rgb(21, 92, 158);
+    height: 40px;
+    color: aliceblue;
+    width: 35px;
+}
+#bty{
+    float: right;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 40px;
+    width: 200px;
+}
+.div1{
+    margin-top: 25px;
+}
+main{
+    width: 900px;
+    /* height: 600px; */
+    margin: 30px auto 0;
+    background-color: #DDDDDD;
+}
+.img{
+    width: 290px;
+    height: 250px;
+    background-color: rgb(35, 179, 99);
+    float: left;
+    margin: 5px 15px 5px 0;
+    box-sizing: border-box;
+}
+main .img:nth-child(3n){
+    margin-right: 0;
+}
+main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.bottom{
+    width: 900px;
+    height: 50px;
+    background-color: #DDDDDD;
+    margin: 0 auto;
+}
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: #1F1F1F;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+::selection{
+    color: orange;
+}
+.muea1{
+    margin-left: 50px;
+}
+.muea1 li{
+    float: left;
+    margin: 20px 20px;
+    color: blue;
+}
+.er{
+    position: relative;
+    right: 397px;
+    top: 60px;
+    color: blanchedalmond;
+    font-size: 14px;
+    font-family: "幼圆";
+}
+.btn{
+    text-align: right;
+   padding: 10px;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+}

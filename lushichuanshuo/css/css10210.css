@@ -1,0 +1,40 @@
+html{
+    font-size: 10px;
+}
+@font-face{
+    font-family: "asd";
+    src: url("HYShangWeiShouShuW.ttf");
+}
+
+.p1{
+    font-family: "宋体";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 3em;
+}
+.p2{
+    /* font-family: "微软雅黑"; */
+    font-size: 3rem;
+    font-weight: normal;
+    font-style:italic; 
+}
+.p3{
+    font-family: "幼圆";
+    font-size: 22px;
+    /* font-weight: bold;
+    font-style: normal; */
+}
+.p35{
+font-size: 20px;
+
+}
+.p4{
+    font-family: "楷体";
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.p0{
+    font:italic bolder 22px/10px "asd"
+}

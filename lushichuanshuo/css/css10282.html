@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .meu li ul li:nth-child(even) {
+            color: rgb(255, 7, 7);
+        }
+
+        /* p:first-letter {
+            font-size: 20px;
+            color: rgb(72, 255, 0);
+            background-color: brown;
+        } */
+
+        /* p::first-line {
+            text-decoration: blueviolet line-through;
+        } */
+
+        /* p::before {
+            content: "gus";
+        } */
+
+        .meu>li:first-child {
+            color: #800080;
+            font-size: 18px;
+            letter-spacing: 5px;
+        }
+
+        .meu>li:last-child {
+            color: coral;
+            font-size: xx-large;
+        }
+       /* section p:last-of-type{
+            color: coral;
+        }
+        article>p:first-of-type{
+            color: cornflowerblue;
+        } */
+        p:only-child{
+            color: darkcyan;
+        }
+        section h3:only-of-type{
+            color: darksalmon;
+        }
+        .meu li:nth-child(2n){
+            color: gold;
+        }
+        article>p:not(.nnn){
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="meu">
+        <li>无极之道</li>
+        <li>装逼王
+            <ul>
+                <li>金铲铲</li>
+                <li>帝国</li>
+                <li>贵族</li>
+            </ul>
+        </li>
+        <li>暗影</li>
+        <li>恶魔</li>
+        <li>天使</li>
+        <li>斗士</li>
+        <li>约德尔人</li>
+        <li>极地寒冰</li> 
+    </ul>
+
+    <!-- <p>天将降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为也，所以动心忍性，增益其所不能。 </p> -->
+
+    <div class="wrap">
+        <section>
+            <h3>江山如此多娇</h3>
+            <p>引无数英雄竞折腰。</p>
+            <p>江山如此多娇，引无数英雄竞折腰。</p>
+        </section>
+        <hr width="80%" color="red">
+        <article>
+            <h3>江山如此</h3>
+            <p class="nnn">多娇，引无数英雄竞折腰。</p>
+            <p>江山如此多娇引无数英雄竞折腰。</p>
+        </article>
+        <div>
+            <p>nihao</p>
+        </div>
+        <div>  <p>nihhhhh</p></div>
+      
+    </div>
+</body>
+
+</html>

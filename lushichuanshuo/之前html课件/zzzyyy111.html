@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>novalidate: 如果使用该属性，则提交表单时不进行html5自带的验证</h3>
+    <h3>autocomplete:规定是否启用表单的自动完成功能</h3>
+    <form action="https://user.qzone.qq.com/528685145" id="f1" novalidate="novalidate"  autocomplete="off">
+        <input type="email" name="email" placeholder="邮箱"/>
+        <input type="url" name="url" placeholder="网址" />
+        <input type="number" name="number" />
+        <input type="range" name="range" />
+        <input type="color" name="color" />
+        <input type="date" name="date" />
+        <input type="month" name="month" />
+        <input type="week" name="week" />
+        <input type="time" name="time" />
+        <input type="datetime" name="datetime" />
+        <input type="datetime-local" name="datetime-local" />
+        <input type="text" name="pattern" pattern="[a-z][0-9]{2,12}" title="首小写字母，2~12位数字"
+            placeholder="首小写字母，2~12位数字" required/>
+        <input type="image" src="./377adab44aed2e730a4630e28b01a18b86d6fa55.png" width="35px" height="40px" />
+        <input type="submit" formaction="https://www.baidu.com" value="百度" />
+        <button formaction="https://www.so.com">360</button>
+
+        <br/>
+        <br/>
+        <input type="submit" value="提交" />
+        <input type="reset" value="重置" />
+
+
+    </form>
+<input form="f1" name="ffff" placeholder="我是外面的"/>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "汉仪";
+    src: url(/css/HYShangWeiShouShuW.ttf);
+}
+h1{
+    font-family:  "汉仪";
+    text-align: center;
+    text-shadow: 0 0 1px red;
+    color: white;
+}
+.yd{
+    font: bold 14px "幼圆";
+    margin: 0 10px 0 10px;
+    }
+
+#tt{
+    font: small "幼圆";
+   color: rgb(3, 143, 143);
+    line-height: 0.5em;
+}
+.sgjs{
+white-space: pre;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 800px;
+            height: 800px;
+            outline: 1px solid tomato;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .ball {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #333;
+            float: left;
+            transform: translate(250px, 375px);
+            /* position: absolute; */
+        }
+        .line1{
+            width: 1px;
+            height: 400px;
+            border: 1px solid black;
+            position: absolute;
+        }
+        .line2{
+            width: 1px;
+            height: 400px;
+            border: 1px solid black;
+            position: absolute;
+        }
+        .two{
+            position: absolute;
+            left: -275px;
+        }
+        .twoball{
+            position: relative;
+            left: 525px;
+            transform-origin: 0 0;
+            animation: yaoyao 2S ease-in-out infinite;
+        }
+        .one{
+            /* position: relative; */
+            transform: translate(-25px, 375px);
+            
+        }
+       
+        .oneball{
+            position: relative;
+            left: 275px;
+            transform-origin: 0px 0;
+            animation: yaobai 2S ease-in-out infinite;
+        }
+      
+       
+        @keyframes yaobai{
+            0%{
+                transform: rotateZ(0deg);
+               
+            }
+            25%{
+                transform: rotateZ(30deg);
+            }
+            50%{
+                transform: rotateZ(0deg);
+            }
+            100%{
+                transform: rotate(0);
+            }
+        }
+        @keyframes yaoyao{
+            0%{
+                transform: rotateZ(0eg);
+               
+            }
+            50%{
+                transform: rotateZ(0deg);
+            }
+            75%{
+                transform: rotateZ(-30deg);
+            }
+            100%{
+                transform: rotate(0);
+            }
+        }
+      
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="oneball">
+            <div class="line1"></div>
+            <div class="ball one"></div>
+        </div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="twoball">
+                <div class="line2"></div>
+                <div class="ball two "></div>
+            </div>
+        
+    </div>
+</body>
+
+</html>

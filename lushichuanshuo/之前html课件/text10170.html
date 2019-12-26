@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    select{
+        width: 160px;
+    }
+    table th{
+        background:greenyellow;
+    }
+   table,td{
+       border: green 1px dashed;
+   }
+   textarea{
+       width: 98%;
+       height: 15px;
+   }
+   
+    </style>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>姓名</th>
+                <td><input /></td>
+                <th>性别</th>
+                <td>
+                    <select>
+                        <option>男</option>
+                        <option>女</option>
+ </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>手机号码</th>
+                <td><input /></td>
+                <th>电子邮箱</th>
+                <td><input type="email"  required/>
+                </td>
+            </tr>
+
+            <tr>
+                <th>教育程度</th>
+                <td><input /></td>
+                <th>工作职位</th>
+                <td><input />
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>工作城市</th>
+                <td><input /></td>
+                <th>期望工作</th>
+                <td><input />
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>自我介绍</th>
+                <td colspan="3"><textarea></textarea>
+                
+            </tr>
+
+            
+            <tr>
+                <th>特长</th>
+                <td colspan="3"><div contenteditable="true" wdith="100%"></div></td>
+                
+            </tr>
+
+            
+            <tr>
+                <th>地址</th>
+                <td colspan="3"><div contenteditable="true" wdith="100%"></div></td>
+           </tr>
+
+           
+           <tr>
+         
+            <td id="bt" colspan="4" align="right">
+                <button>添加</button>
+                <input type="reset" value="重置">
+            </td>
+            
+      </tr>
+        </table>
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>

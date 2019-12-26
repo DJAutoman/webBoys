@@ -1,0 +1,85 @@
+header{
+    background-image: url("/OPPOBANNER.jpg");
+    height: 880px;
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-size:1920px auto;
+}
+nav{
+    width: 90%;
+    height: 60px;
+    /* background-color: rgb(255, 255, 255); */
+    margin: 0 auto;
+}
+.ban{
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+.ban img{
+    height: 60px;
+}
+
+.muea,li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    margin:0 13px;
+    padding: 0 10px;
+    font-family: "幼圆";
+}
+.muea li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+} 
+.tubiao{
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+    margin-right: 15%;
+}
+.img1{
+    width: 49.9%;
+    float: left;
+}
+.img1 a img{
+    width: 100%;
+}
+.img2{
+    width: 49.9%;
+    float: right;
+}
+.img2 a img{
+    width: 100%;
+}
+.img3{
+    width: 49.9%;
+    float: left;
+    margin-top: 0.5px;
+}
+.img3 a img{
+    width: 100%;
+}
+.img4{
+    width: 49.9%;
+    float: right;
+    margin-top: 0.5px;
+}
+.img4 a img{
+    width: 100%;
+}
+.img::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+h1{
+    position: relative;
+    top: 20px;
+    color: deeppink;
+text-align: center;
+
+}
+

@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color:rgb(245, 245, 245)
+}
+.contenier{
+    width: 1226px;
+    height: 640px;
+
+    margin: 20px auto;
+    font-size: 0;
+}
+.left{
+    display: inline-block;
+    width: 234px;
+    height: 614px;
+    background-color: sandybrown;
+    vertical-align: top;
+}
+.right{
+    display: inline-block;
+    width: 992px;
+    height: 614px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    
+}
+.cell{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 234px;
+    height: 300px;
+    margin:0 0 14px 14px;
+    vertical-align: top;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.cell img{
+    width: 160px;
+    height: 160px;
+    margin: 14px auto;
+}
+.d1{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "微软雅黑";
+    margin-top: 0px;
+    margin-bottom: 2px;
+   
+    }
+    p{
+    font-size: 12px;
+    font-weight: 200;
+    color: grey;
+    margin-top: 0px;
+    
+    }
+    .d2{
+    font-size: 14px;
+    font-weight: 200;
+    color: orange; 
+    }
+    .cell a{
+    text-decoration: none;
+    }
+    .cell:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translateY(-2px);
+    transition: all 0.5S;
+    }
+    .left:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translateY(-2px);
+    transition: all 0.5S;
+    }

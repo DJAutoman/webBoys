@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+    .div1{
+       border: none;
+        /* background-color: rgb(146, 98, 98); */
+        position: absolute;
+        right:75%;
+        top:50%;
+        /* transform: translate(-50%,-50%); */
+    }
+    .div2{
+        position: absolute;
+        left:0;
+        width: 600px;
+        height: 100px;
+        border-radius: 50px;
+        /* background-color: rgb(151, 59, 59); */
+        background: linear-gradient(to right,rgb(253, 1, 211),#D80EF5);
+        transition: all .3S;
+    }
+    .div2:hover{
+        width: 100px;
+    }
+    .fa{
+        position: absolute;
+        left:300px ;
+        top: 10px;
+        transform: translateX(-50%);
+        color: aliceblue;
+        transition: all .3S;
+    }
+    .div1:hover .fa{
+        transform: translateX(-500%);
+    }
+    .quan{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        float: left;
+        text-align: center;
+    }
+    .div4{
+        background-color: aqua;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        transition-delay: 1.8s;
+        transition: all .3S;
+    }
+    .div5{
+        background-color: rgb(42, 172, 64);
+        position: relative;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        transition-delay: 1.2s;
+        transition: all .3S;
+    }
+    .div6{
+        background-color: rgb(192, 147, 23);
+        position: relative;
+        bottom: 100px;
+        left: 200px;
+        visibility: hidden;
+        transition-delay: .9s;
+        transition: all .3S;
+    }
+    .div7{
+        background-color: rgb(187, 34, 123);
+        position: relative;
+        bottom: 100px;
+        left: 200px;
+        visibility: hidden;
+        transition-delay: .5s;
+        transition: all .3S;
+    }
+    .div8{
+        background-color: rgb(231, 12, 12);
+        position: relative;
+        bottom: 200px;
+        left: 200px;
+        visibility: hidden;
+        
+        transition: all .3S;
+    }
+    .div1:hover .div8{
+        transform: translateX(300px) rotate(270deg);
+        visibility: visible;
+    }
+    .div1:hover .div7{
+        transform: translateX(100px) rotate(270deg);
+        visibility: visible;
+    }
+    .div1:hover .div6{
+        transform: translateX(100px) rotate(270deg);
+        visibility: visible;
+    }
+    .div1:hover .div5{
+        transform: translateX(100px) rotate(270deg);
+        visibility: visible;
+    }
+    .div1:hover .div4{
+        transform: translateX(100px) rotate(270deg);
+        visibility: visible;
+    }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2"></div>
+        <div class="fa fa-share-alt fa-5x"></div>
+        <div class="quan div4">1</div>
+        <div class="quan div5">2</div>
+        <div class="quan div6">3</div>
+        <div class="quan div7">4</div>
+        <div class="quan div8">5</div>
+    </div>
+</body>
+</html>

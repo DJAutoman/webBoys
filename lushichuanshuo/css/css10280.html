@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .red{
+        background-color: rgb(255, 0, 0);
+        float: left;
+    }
+    .red::before{
+        content: "hello";
+    }
+    .red::after{
+        content: "world";
+    }
+    .yellow{
+        background-color: yellow;
+        float: left;
+    }
+    .yellow::after{
+        content: "bala";
+    }
+    .green{
+        background-color: green;
+        float: left;
+    }
+    .pink{
+        background-color: pink;
+        float: left;
+    }
+    span{
+        background-color: rgb(38, 186, 206);
+        float: left;
+        width: 50px;
+        height: 100px;
+    }
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+    <div class="box pink"></div>
+    <span>nihao</span>
+</body>
+</html>

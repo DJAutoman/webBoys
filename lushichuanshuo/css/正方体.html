@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    
+    <style>
+    .hezi{
+        transform: rotateX(-20deg) rotateY(-20deg);
+        width: 400px;
+        height: 400px;
+        /* background-color: rgb(218, 28, 186); */
+        position: relative;
+        margin: 100px auto;
+        transform-style: preserve-3d;
+    }
+
+    .zft{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 0em;
+        color: papayawhip;
+        /* border: 1px solid tomato; */
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        opacity: 0.8;
+        transition: all 1s;
+    }
+    .hezi:hover .zft{
+        font-size: 5em;
+    }
+   .hezi:hover .z1{
+        transform: translateZ(100px);
+        background-color: rgb(247, 0, 0);
+    }
+    .hezi:hover .z2{
+        transform: translateZ(-100px);
+        background-color: rgb(255, 153, 0);
+    }
+    .hezi:hover .z3{
+        transform: translateY(100px) rotateX(90deg);
+        background-color: rgb(126, 196, 15);
+    }
+    .hezi:hover .z4{
+        transform: translateY(-100px) rotateX(90deg);
+        background-color: rgb(15, 145, 196);
+    }
+    .hezi:hover .z5{
+        transform: translateX(-100px) rotateY(90deg);
+        background-color: rgb(78, 15, 196);
+    }
+    .hezi:hover .z6{
+        transform: translateX(100px) rotateY(90deg);
+        background-color: rgb(228, 11, 228);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="hezi">
+
+    <div class="zft z1">前</div>
+    <div class="zft z2">后</div>
+    <div class="zft z3">下</div>
+    <div class="zft z4">上</div>
+    <div class="zft z5">左</div>
+    <div class="zft z6">右</div>
+
+</div>
+</body>
+</html>

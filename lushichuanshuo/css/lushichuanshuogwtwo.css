@@ -1,0 +1,397 @@
+body{
+    background-color: rgb(211, 209, 206);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    height: 60px;
+    background-color: rgb(22,23,25);
+    border-bottom: 1px solid  transparent;
+    border-color: rgb(61, 61, 61);
+   
+}
+.daohang{
+    width: 1600px;
+    height: 60px;
+    padding: 0 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* background-color: rgb(139, 136, 136); */
+}
+.navlogo{
+    display: inline-block;
+    width: 62px;
+    /* padding-top: 11.5px; */
+    height: 60px; 
+    margin:0 10px 0 0 ;
+    position: relative;
+    top: -12px;
+}
+.navlogo img{
+    width: 62px;
+    opacity: .9;
+}
+.navlogo img:hover{
+    opacity: 1;
+}
+.navcontant{
+    display: inline-block;
+}
+.navcontant a{
+    text-decoration: none;
+    color:rgba(255, 255, 255,0.7);
+}
+ul{
+    display: inline-block;
+    width: 356px;
+    height: 60px;
+    /* background-color: rgb(226, 115, 115); */
+}
+li{
+    float: left;
+    margin-right: 20px;
+    font-size: 17px;
+    font-family: "微软雅黑";
+    line-height: 60px;
+}
+.navright{
+    float: right;
+    /* background-color: rgb(109, 235, 104); */
+}
+.youbian{
+    float: right;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height: 60px;
+}
+i{
+    color: rgba(168, 166, 166, 0.4);
+    margin-left: 5px;
+}
+.zhanghu{
+    margin-left: 30px;
+}
+.navright a{
+    text-decoration: none;
+    color:rgba(255, 255, 255,0.7);
+}
+.navcontant a:hover{
+    color:rgba(255, 255, 255,1);
+}
+.navright a:hover{
+    color:rgba(255, 255, 255,1);
+}
+.zhuye{
+    height: 459px;
+    background-color: rgb(22,23,25);
+    position: relative;
+}
+.main{
+    width: 1280px;
+    height: 409px;
+    margin: 0 auto;
+    /* background-color: #4a4a4a4a; */
+    padding: 50px 0 0 0;
+}
+.section{
+    width: 1280px;
+    height: 187px;
+    margin: 10px 0 0 0 ;
+    padding: 0 0 120px;
+    /* background-color: rgb(140, 191, 233); */
+}
+.kongbai{
+    padding: 40px 22px 10px;
+}
+.maincenter{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.mainleft{
+    width: 670px;
+    height: 143px;
+    margin-left: 20px;
+    /* background: rgb(120, 98, 218); */
+}
+.mainright{
+    width: 256px;
+    height: 176px;
+    /* background-color: rgb(211, 72, 102); */
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: -30px;
+}
+.mainleft p{
+    color: #a2b9c2;
+    font: 28px "微软雅黑";
+}
+.mainleft a i:hover{
+    color: rgba(255, 255, 255,1);
+}
+.mainleft p span{
+    color: #566b73;
+    font: 14px "微软雅黑";
+    padding: 2px 5px;
+    border: 1px solid #566b73;
+    border-radius:5px;
+    position: relative;
+    top: -5px;
+}
+.mainleft a{
+    text-decoration: none;
+}
+.mainleft p i{
+    color: #a2b9c2;
+
+}
+.mainleft p span:hover{
+    background-color: rgb(58, 76, 83) ;
+    color: rgb(147, 189, 206);
+}
+.btn1{
+    color: white;
+    font: 12px "微软雅黑";
+    margin: 25px 10px 5px 0;
+    padding: 8px 15px;
+    background-color: #0081b4;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.btn2{
+    color: #0081b4;
+    outline: none;
+    border: none;
+    font-size: 14px ;
+    background: none;
+    padding: 1px 6px;
+}
+.mainleft .btn1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.mainleft .btn1:hover{
+    background-color: rgb(18, 156, 211);
+}
+.mainleft .btn2 a{
+    text-decoration: none;
+    color: #00b6ff;
+}
+.mainleft .btn2 a:hover{
+    color: rgb(225, 238, 238);
+}
+.mainright p{
+    color: #00b6ff;
+    font: 14px "微软雅黑";
+    margin: 15px 0 0;
+}
+.mainright a{
+    text-decoration: none;
+} 
+.mainright a:hover p{
+    color: rgb(229, 229, 226);
+}
+.mainright a img{
+    opacity: 0.9;
+}
+.mainright a:hover img{
+    opacity: 1;
+}
+.gamename{
+    width: 162px;
+    height: 392px;
+    border: 1px solid black;
+}
+.homepage{
+    width: 1280px;
+    height: 375px;
+    /* background-color: rgb(235, 134, 173); */
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.homepage .gamename{
+    position: relative;
+    top: -75px;
+    color: #b2bac7;
+    background-color: rgb(48, 55, 65);
+    font-size: 14px;
+    font-family: "微软雅黑";
+    z-index: 2;
+    text-align: center;
+    line-height: 3.6;
+}
+.homepage .gamename a{
+    text-decoration: none;
+    color: #b2bac7;
+}
+.homepage .gamename img{
+    opacity: .9;
+}
+.homepage a:hover{
+    color: azure;
+} 
+.homepage .gamename img:hover{
+    opacity: 1;
+}
+footer{
+    height: 388px;
+    background-color: black;
+    text-align: center;
+    border-top: 5px grey solid;
+    margin-top: 20px;
+}
+.navbarfooter{
+    margin: 15px 0px 0px;
+    padding: 30px 0px;
+    width: 100%;
+    height: 66px;
+}
+footer .navbarfooter img{
+    
+    width: 124px;
+    height: 66px;
+    opacity: .9;
+}
+
+footer .navbarfooter img:hover{
+    opacity: 1;
+}
+
+.navbarfooterlink{
+    height: 23px;
+    margin-bottom: 15px;
+}
+.navbarfootercareer{
+    display: inline-block;
+}
+.navbarfootercareer a{
+    font: 17px "微软雅黑";
+    text-decoration: none;
+    color:rgba(248, 248, 248, 0.7)
+}
+.navbarfootercareer a:hover{
+    color:rgba(248, 248, 248, 1)
+}
+.navbarfootercareer:nth-child(n+2):before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.navbarcopy{
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.3);
+}
+.navbartrademark{
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.3);
+}
+.navbartrademark a{
+    color: #00b6ff;
+}
+.navbarsublinks{
+    height: 22.5px;
+}
+.anchor{
+    display: inline-block;
+    font:13px "微软雅黑";
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.7);
+}
+.anchor a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.navbarsublinks .anchor:last-child::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.additionailegal{
+    margin-top: 6px;
+    height: 15px;
+}
+.additionailegalow{
+    display: inline-block;
+    
+    font: 11px 微软雅黑, Microsoft YaHei, Helvetica, Tahoma, StSun, 宋体, SimSun, sans-serif;
+}
+.additionailegalow a{
+    color: rgba(255, 255, 255, 0.3);
+}
+.additionailegalow:nth-child(n+2):before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.additionailegalow a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.legal,.add,.ajj,.f1{
+    height: 15px;
+    color: rgba(255, 255, 255, 0.3);
+    font:11px 微软雅黑, Microsoft YaHei, Helvetica, Tahoma, StSun, 宋体, SimSun, sans-serif ;
+}
+.legalline,.addlink,.ajjlink{
+    display: inline-block;
+}
+.add .addlink a{
+    color: rgba(255, 255, 255, .7);
+} 
+.add .addlink a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.legalline:last-child::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.addlink:last-child::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.ajjlink:last-child::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.llcon{
+    height: 26px;
+    margin: 10px 0px;
+}
+.llcon img{
+    width: 26px;
+    height: 26px;
+    margin: 0px 5px;
+}

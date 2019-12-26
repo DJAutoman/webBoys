@@ -1,0 +1,70 @@
+header{
+    height: 45px;
+    background-color: #459df5;
+}
+.nav-content{
+    height: 45px;
+    width: 1139px;
+    margin: 0 auto;
+}
+.bt{
+    display: block;
+    float: left;
+    text-align: center;
+
+}
+dt{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color:#f5f5f5f5 ;
+}
+.bt1{
+    width: 104px;
+}
+.bt2{
+    width: 145px;
+}
+dd{
+    display: none;
+    height: 30px;
+    font-size: 14px;
+    color: seashell;
+    padding-top:15px;
+    transition: all .3S;
+    background-color:#459df5 ;
+}
+dt:hover~dd{
+    display: block;
+    background-color: rgb(25, 80, 139);
+    }
+.nav-content1{
+    float: right;
+    width: 154px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: seashell;
+    margin-top: 9.5px;
+}
+.postbg{
+    height: 578px;
+    background-color: rgb(49, 62, 93);
+    position: relative;
+}
+.postmask{
+    width: 1186px;
+    height: 480px;
+    margin: 0 auto;
+    background-image: url("https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/posterBg/resource/img/darkBlueBg-mask_008861d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tp1{
+    width: 47px;
+    height: 97px;
+    position: absolute;
+    left: 18%;
+    top: 0px;
+    z-index: 1;
+}

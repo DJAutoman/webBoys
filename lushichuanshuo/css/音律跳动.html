@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .zhu{
+            width: 500px;
+            height: 100px;
+            background-color: rgb(24, 24, 24);
+            position: relative;
+            /* overflow: hidden; */
+           }
+    .tiao{
+        width: 10px;
+        height: 100px;
+        /* border: rgb(235, 23, 23) 1px solid; */
+        animation:music 1S ease-in-out infinite;
+        position: absolute;
+      
+        bottom: 0;
+    }
+    @keyframes music{
+        0%{
+            background-color: rgb(196, 247, 234);
+            height: 0;
+            opacity: 0.2;
+        }
+        25%{
+            background-color: rgb(201, 241, 201);
+            opacity: 0.5;
+            height: 50px;
+        }
+        50%{
+            background-color: rgb(132, 235, 132);
+            opacity: 1;
+            height: 100px;
+        }
+        75%{
+            background-color: rgb(201, 241, 201);
+            opacity: 0.5;
+            height: 50px;
+        }
+        100%{
+            background-color: rgb(196, 247, 234);
+            height: 0;
+            opacity: 0.2;
+        }
+    }
+    .tiao:nth-child(2){
+        left: 14px;
+        animation-delay: .1S;
+    }
+    .tiao:nth-child(3){
+        left: 28px;
+        animation-delay: .2S;
+    }
+    .tiao:nth-child(4){
+        left: 42px;
+        animation-delay: .3S;
+    }
+    .tiao:nth-child(5){
+        left: 56px;
+        animation-delay: .4S;
+    }
+    .tiao:nth-child(6){
+        left: 70px;
+        animation-delay: .5S;
+    }
+    .tiao:nth-child(7){
+        left: 84px;
+        animation-delay: .6S;
+    }
+    .tiao:nth-child(8){
+        left: 98px;
+        animation-delay: .7S;
+    }
+    .tiao:nth-child(9){
+        left: 112px;
+        animation-delay: .8S;
+    }
+    </style>
+</head>
+<body>
+    <div class="zhu">
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+        <div class="tiao"></div>
+    </div>
+</body>
+</html>
